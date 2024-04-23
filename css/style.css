@@ -1,0 +1,47 @@
+/* General */
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    background-image: url("../image/1131217.jpg");
+    background-size: cover;
+    background-position:center center;
+    padding: 100px 0px;
+}
+
+main {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #CC95C0;
+    background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+    background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+    
+
+}
+
+main > section > h1 {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+main > section > p {
+    text-align: center;
+    margin: 5px 60px;
+    line-height: 20px;
+    margin-bottom: 44px;
+    font-family: Lucida Sans Unicode;
+    font-weight: bold;
+}
+
+footer {
+    background-image: url("../image/Altja_jõgi_Lahemaal.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 108px 0px;
+}
